@@ -1,0 +1,205 @@
+_collectionspy
+structures	test_enum
+test_floattest_ctypessourcetest_abctest_sundrytest_subprocesstest_source_encodingosiore
+test_bytes
+test_errnotest_unicodeerrorclientservereventsasynciocopyquerytest_formatsearch	test_maintest_parserlogginghookstest_functions	constantsqueuetest_cmdtest_configtest_filelisttest_sysconfigbuildcmdlogerrorsfilelistidnaascii	resourcesmetadatapickleshutilstructtyping_basefuturesdecimaltarfiletreemainsupporttests	test_utilabc	sysconfig_compat	__about___structures
+specifiersrequirements_vendor	pyparsing
+py31compattokenize	ipaddress
+subprocessdummyqueuesspawncrlfsdistuploadinstallcommandbuild_pyregister	bdist_rpm	build_ext
+build_clibinstall_libbdist_wininstinstall_scriptsinstall_egg_infodistglobglibcdep_util	extension
+pep425tagsarchive_utilpkg_resourcescontribtimeout_appengine_environ	pyopensslsockssecuretransport	appenginentlmpool_securetransportbindings	low_levelmakefile	backportsssl_match_hostname_implementation
+initialisewintermansitowin32coloramaansi
+_tokenizerwin32
+serializer_inputstreamhtml5lib_utils	_ihatexmlhtml5parser_triedatrie	sanitizerfilterslintinject_meta_charsetalphabeticalattributes
+whitespaceoptionaltagstreewalkerstreeadapterstreebuilderssqlitelockfilelinklockfilelockfilepidlockfilemkdirlockfilesymlinklockfilecounterhelpersbarprogressspinnerauth_internal_utilsadaptersapicertsrequests__version__sessionscachecontrol_cmdwrapper
+heuristicsfilewrapper	serializeadapter
+controllerredis_cache
+file_cachecacheswebencodingsx_user_definedmklabelslabelsresolve	locations	build_env	pyproject	_internalautocompletionbase_command
+cmdoptionsmain_parserreq_installreqreq_fileconstructorsreq_setreq_trackerreq_uninstallbazaar	mercurialvcs
+subversiongitoutdatedencodingsetuptools_buildtemp_dirdeprecationuihashes
+filesystemformat_controllink	candidateshowlistcommands	uninstallhash
+completion
+operationspreparepipdistroretrying	uts46data	intrangesidnadatapackage_datacodecwrapperscolorlogenvbuildpep517_in_processpytomlwritercertifi
+big5prober
+sjisprobersbcsgroupproberlanggreekmodelgb2312probereuctwprober
+utf8proberlangbulgarianmodel	euckrfreqlanghungarianmodellangturkishmodeleuckrprobermbcssmchardet	escproberchardistributionsbcharsetproberhebrewproberlangcyrillicmodeluniversaldetectormbcsgroupprobercharsetgroupproberbig5freq
+gb2312freqjisfreqeucjpproberlangthaimodelcodingstatemachinecp949probercharsetproberlatin1proberjpcntxescsmmbcharsetprober
+chardetectdistlibenumslanghebrewmodel	euctwfreqscriptslocatorsdatabasemanifest	_backport_versionfallbackmsgpackurllib3connectionpoolpoolmanagerfieldsfilepostwaiturlretryssl_gnudumbdomregndbmdbmminidompulldom
+minicompat
+NodeFilter
+xmlbuilderexpatbuilderhandlersaxutils	xmlreader_exceptionsexpatreaderElementPathcElementTreeElementTreeElementIncludeexpatparsersxmlentitieshtmlhttptool	cookiejardecoderencoderscannerjsonleakerstest_selftype
+testresultscript_helpergc_inspectionbogus_code_objrecursive_callunderlying_dictinfinite_loop_remutation_inside_cyclegctrace_at_recursion_limiteintr_testerreperf	test_json	test_dump	test_fail	test_tool
+test_pass1
+test_pass2
+test_pass3test_decodetest_indenttest_defaulttest_speedupstest_recursiontest_scanstringtest_separatorstest_encode_basestring_asciiinstanceline
+call_stackfinal_afinal_b
+test_utilstest_policytest_messagetorture_testtest_generatortest_pickleabletest_inversiontest__encoded_wordstest_asian_codecstest_defect_handlingtest_contentmanagertest_headerregistrytest__header_value_parsertest_gctest_iotest_ostest_retest_tk
+test_toolstest_lll	test_i18n
+test_pdepstest_fixcidtest_md5sumtest_pathfixtest_pindenttest_unparsetest_reindenttest_gprof2htmltest_uuautotestpgosetupcmdlinerefleakruntestlibregrtestsave_env	win_utils
+runtest_mpprofileere_testsregrtestsortperf
+pip-scriptpip3-scriptpip3.8-scripteasy_install-scripteasy_install-3.8-scriptsslteststest_asttest_bdbtest_bz2test_cgitest_csvtest_dbmtest_eoftest_distest_gdbtest_grptest_imppackage	submodule
+submodule1
+submodule2subpackage2usebasicbasic2bindingbinding2indirect	rebinding
+rebinding2
+subpackagefrom_cycle1from_cycle2test_nistest_inttest_pdbtest_importtest_pkgtest_powtest_ptytest_pwdtest_saxtest_settest_systest_tixtest_ssltest_tcltest_ucnntsys_ioxmltests_abc_ast_bz2_imp_msi_md5_sre_sslmathmmapmodelpyexpattimezlib_json_lzma_sha1_sha3_statarraycmatherrno_heapq_queueatexitmsvcrtselectwinreg_bisect_blake2_codecs_ctypes_locale_lsprof_opcode_pickle_random_sha256_sha512_signal_socket_string_struct_thread_winapiaudioop_asynciomarshal_decimal_hashlib_sqlite3_tkinter_weakrefbinasciiwinsoundbuiltins	_datetime	_operator	_symtable	_testcapi	_warnings	itertools	xxsubtype
+_codecs_cn
+_codecs_hk
+_codecs_jp
+_codecs_kr
+_codecs_tw
+_functools_overlapped_statistics_testbufferunicodedata_contextvars_ctypes_test_elementtree_testconsole_tracemallocfaulthandler_codecs_iso2022_multibytecodec_testmultiphase_multiprocessing_xxsubinterpreters_testimportmultiplenosetools
+multiarraynumpydbmailformsetsgenericviewsdjangopytestmark_pytestterrainlettucebehavealembicStringIO	cStringIOtestdata_module_inside_zip	fork_wait	imp_dummy	pydoc_mod	relimport	seq_testsechoecho2echo3	test_aifctest_asyncio
+functionaltest_pep492
+test_taskstest_eventstest_queuestest_servertest_runnerstest_futurestest_streamstest_sendfiletest_protocolstest_sslprototest_transportstest_base_eventstest_unix_eventstest_sock_lowleveltest_windows_utilstest_buffered_prototest_windows_eventstest_proactor_eventstest_selector_events	test_bool	test_capi	test_call	test_code	test_copy	test_dict	test_file	test_glob	test_gzip	test_hmac	test_html	test_hash	test_idle	test_iter	test_list	test_long	test_lzma	test_mmap	test_math	test_repl	test_site	test_poll	test_sort	test_time	test_stat	test_spwd	test_uuid	test_venv	test_wave	test_with	test_zlib	testcodec
+ann_module
+audiotests
+gdb_sample
+dis_module
+lock_tests
+mp_preload
+bisect_cmd
+list_tests
+pythoninfo
+test_audit
+test_array
+test_binop
+test_bufio
+test_cgitb
+test_class
+test_cmath
+test_deque
+bad_coding
+test_crypt
+test_eintr
+test_embed
+test_epoll
+test_descr
+test_flufl
+test_fcntl
+test_fork1
+test_frame
+test_index
+test_heapq
+test_ioctl
+test_popen
+test_pipes
+test_netrc
+test_posix
+test_print
+test_pydoc
+test_queue
+test_raise
+test_runpy
+test_shlex
+test_range
+test_sched
+test_scope
+test_slice
+test_super
+test_trace
+test_smtpd
+test_sunau
+test_tuple
+test_types
+test_unary
+test_wait4
+stacklevelimport_warning
+test_wait3testmodtracedmodulesann_module2ann_module3bad_getattrtest_warningscoding20731audit-testsmock_socketbad_coding2pydocfodderssl_serversqcatqgrep	fd_statusinput_readersigchild_ignoretest_atexittest_base64test_binhextest_bigmemtest_bisecttest_buffertest_clinictest_codecstest_codeoptest_cursestest_dtracetest_fileiotest_frozentest_futuretest_ftplibtest_getopttest_globaldatatest_imghdrdata01subdirectorydata02portion2frozendata03portion1test_file_loaderbuiltinimport_test_cachingtest_fromlisttest_meta_pathtest___loader__test_packagestest___package__stubstest_relative_imports	zipdata01	zipdata02test_importlibfixtures	test_lazytest_zip	test_open	test_read	test_specthreetest_windowsa_testfootest_metadata_apitest_namespace_pkgstest_moduletest_kqueuetest_msilibtest_localetest_pickletest_ntpathtest_poplibtest_pyclbrtest_randomtest_pprinttest_selecttest_pstatstest_quopritest_sndhdrtest_shelvetest_sqlitetest_sockettest_shutiltest_signaltest_stringtest_strtodtest_structtest_symboltest_syntaxtest_syslogtest_threadtest_timeittest_turtletest_typingtest_unpacktest_urllibtest_winregtest_xdrlibtest_xmlrpctest_zipappbad_getattr2bad_getattr3curses_testsdouble_constencoded_modulesmodule_koi8_rmodule_iso_8859_1future_test1future_test2good_getattrmp_fork_bombpyclbr_inputpickletesterstring_teststest___all__test__localetest__opcodetest_audiooptest_builtintest_comparetest_compiletest_complextest_copyregtest_dbm_gnutest_decimaltest_difflibtest_devpolltest_doctesttest_dynamictest_extcalltest_filecmptest_fnmatchtest_fstringtest_future3test_future4test_future5test_genexpstest_getpasstest_gettexttest_grammartest_hashlibtest_httplibtest_imaplibtest_inspecttest_lib2to3test_iterlentest_keywordtest_longexptest_lltracetest_loggingtest_mailcaptest_mailboxtest_marshaltest_minidomtest_nntplibtest_opcodestest_openptytest_osx_envtest_pathlibtest_pkgutiltest_profiletest_pulldomtest_pyexpattest_reprlibtest_secretstest_richcmptest_smtpnettest_tarfiletest_supporttest_timeouttest_smtplibtest_urllib2test_wsgireftest_weakreftest_zipfiletest_weaksettime_hashlibmapping_teststest_argparsetest_asyncgentest_asynchattest_asyncoretest_binasciitest_calendartest_cmd_linetest_colorsystest_containstest_cprofiletest_crasherstest_datetimetest_dbm_dumbtest_dbm_ndbmtest_descrtuttest_doctest2test_getargs2test_memoryiotest_operatortest_optparsetest_platformtest_readlinetest_propertytest_plistlibtest_regrtesttest_setcompstest_strftimetest_strptimetest_symtabletest_tempfiletest_tabnannytest_textwraptest_unittesttest_tokenizetest_urlparsetest_userdictbadsyntax_3131test_winsoundtest_userlistdatetimetesterinspect_foddermake_ssl_certstest_dictviewstest_distutilstest_dictcompssample_doctesttest_ensurepiptest_docxmlrpctest_fileinputtest_augassigntest_enumeratetest_functoolstest_fractionstest_funcattrstest_ipaddresstest_itertoolstest_largefiletest_linecachetest_listcompstest_metaclasstest_mimetypestest_peepholertest_pkgimporttest_posixpathtest_selectorstest_startfiletest_structseqtest_telnetlibtest_tracebacktest_unpack_extest_threadingtest_urllibnettest_utf8_modetest_zipfile64doctest_aliasestest_xml_etreetest_zipimportinspect_fodder2bytecode_helpermemory_watchdogtest___future__test_compilealltest_contextlibtest_coroutinestest_decoratorstest_exceptionstest_file_eintrtest_generatorstest_htmlparsertest_isinstancetest_memoryviewtest_py_compiletest_statisticstest_stringpreptest_typecheckstest_urllib2nettest_userstringtest_utf8sourcetest_webbrowsertest_xmlrpc_nettest_xxtestfuzztest_yield_fromoutstanding_bugstest_asdl_parsertest_code_moduletest_collectionstest_httpserverstest_defaultdicttest_dataclassestest_int_literaltest_pickletoolstest_genericpathtest_rlcompletertest_robotparsertest_ossaudiodevtest_tracemalloctest_ttk_guionlytest_unicodedatatest_xml_etree_cbadsyntax_future3badsyntax_future4badsyntax_future5badsyntax_future7badsyntax_future6tf_inherit_checkbadsyntax_future9badsyntax_pep3120badsyntax_future8test__osx_supporttest_codecmaps_cntest_codecmaps_hktest_codecmaps_jptest_codecmaps_krtest_charmapcodectest_codecmaps_twtest_bigaddrspacetest_dict_versiontest_configparsertest_faulthandlertest_dummy_threadtest_finalizationtest_modulefindertest_http_cookiestest_genericclasstest_ordered_dicttest_picklebuffertest_subclassinittest_ttk_textonlytest_unicode_filetest_sys_settracetest_winconsoleiobadsyntax_future10test_socketserverdataclass_textannotest_univnewlinesdataclass_module_1dataclass_module_2test_baseexceptionmod_generics_cachetest_normalizationtest_numeric_towertest_script_helpertest_structmemberstest_threadsignalstest_type_commentstest_codeccallbackstest_generator_stoptest_keywordonlyargtest_http_cookiejartest_sys_setprofilewin_console_handlertest_multibytecodectest_cmd_line_scripttest_dummy_threadingtest_string_literalstest_threading_localtest_urllib_responsetest_abstract_numberstest_threaded_importsignalinterproctestertest_contextlib_asynctest_threadedtempfile_test_multiprocessingdataclass_module_1_strtest_urllib2_localnetdataclass_module_2_strmultibytecodec_supporttest_c_locale_coerciontest_codecencodings_cntest_codecencodings_hktest_codecencodings_jptest_codecencodings_twtest_codecencodings_krtest_named_expressionstest_zipimport_supporttest__xxsubinterpreterstest_concurrent_futurestest_xml_dom_minicompatthreaded_import_hangerstest_exception_hierarchytest_positional_only_argtest_unicode_identifierstest_exception_variationstest_multiprocessing_forksample_doctest_no_docteststest_dynamicclassattributetest_multiprocessing_spawntest_codecencodings_iso2022test_unicode_file_functionssample_doctest_no_docstringstest_multiprocessing_forkserver"test_multiprocessing_main_handlingvenvaudioimagemimenonmultipart	multipartapplicationheaderpolicycharsetencoders	iteratorsemail	generator
+base64mime
+_parseaddr
+feedparser
+quoprimime_policybase_encoded_wordscontentmanagerheaderregistry_header_value_parserastbdbuubz2cgicsv	test_anon	test_cast	test_init	test_libc	test_find	test_repr
+test_sizestest_arraystest_cfuncs
+test_win32test_delattrtest_bufferstest_valuestest_funcptrtest_loadingtest_numberstest_pep3118test_objectstest_slicingtest_stringstest_keeprefstest_macholibtest_byteswaptest_picklingtest_wintypestest_bitfieldstest_internalstest_stringptrtest_callbackstest_frombuffertest_incompletetest_pointerstest_python_apitest_parameterstest_refcountstest_checkretvaltest_as_parametertest_prototypestest_memfunctionstest_structurestest_struct_fieldstest_random_thingstest_varsize_structtest_returnfuncptrstest_unaligned_structurestest_simplesubclassestest_array_in_pointer_aixdylibmacholib	frameworkdyld_endianpanelctypeshas_keywintypescursestextpaddisschemaimpsequencepdbptysslttymsiliburllibrobotparserxmlrpcaifclockstaskstrsockrunnersstreamssslproto	protocols	staggered
+base_tasks
+coroutines
+transportsbase_futureswindows_utilsbase_eventsunix_eventsformat_helperswindows_eventsbase_subprocesscodeselector_eventsproactor_eventsenumgziphmacgreprpcrunundoeditorformathtestmock_tktemplate	idle_testtest_rpctest_run	mock_idle	test_grep	test_help	test_tree	test_undo
+test_querytest_editortest_iomenutest_macosxtest_outwintest_searchtest_windowtest_historytest_browsertest_calltiptest_pyparsetest_replacetest_pyshelltest_warningtest_tooltiptest_sidebartest_debuggertest_debugobjtest_editmenutest_mainmenutest_squeezertest_textviewtest_calltip_wtest_colorizertest_delegatortest_multicalltest_statusbartest_config_keytest_runscripttest_autoexpandtest_debugger_rtest_help_abouttest_debugobj_rtest_parenmatchtest_searchbasetest_zoomheighttest_codecontexttest_hyperparsertest_pathbrowsertest_autocompletetest_percolatortest_redirectortest_scrolledlisttest_stackviewertest_autocomplete_wtest_configdialogtest_searchengineiomenumacosxoutwinwindowhistorybrowsercalltippyparsepyshellreplacesidebarzzdummytooltipidlelibdebuggerdebugobjmainmenusqueezer	calltip_wtextview	dynoption	colorizer	delegator	runscript	statusbar	multicall
+autoexpand
+help_about
+debugobj_r
+percolator
+config_key
+parenmatch
+redirector
+debugger_rcodecontextpathbrowser
+searchbasestackviewer
+zoomheighthyperparserautocompletesearchengineautocomplete_wfix_nescrolledlistconfigdialogfixesfix_mapfix_zipfix_longfix_execfix_repr	fix_applyfix_dict	fix_inputfix_next	fix_paren	fix_print	fix_raise	fix_types
+fix_buffer	fix_throw
+fix_except
+fix_filter
+fix_future
+fix_intern
+fix_import
+fix_idioms
+fix_reduce
+fix_reloadfix_asserts
+fix_xrangefix_getcwdufix_has_key
+fix_urllibfix_importsfix_nonzerofix_renamesfix_sys_excfix_unicodefix_execfilefix_exitfuncfix_imports2fix_operatorfix_ws_commafix_funcattrsfix_raw_inputfix_basestringfix_isinstancefix_metaclassfix_itertoolsfix_xreadlinesfix_methodattrsfix_numliteralsfix_set_literalfix_tuple_paramsfix_standarderrorfix_itertools_importsconvpgengrammarpgen2literalsdriverbommyfixesfix_last	fix_first
+fix_parrotfix_explicitfix_preorder	bad_orderno_fixer_clsparrot_examplefalse_encodingdifferent_encodingpy2_test_grammarpy3_test_grammarinfinite_recursiontest_fixerstest_all_fixerstest_pytreetest_refactorpytree_idempotencypygramlib2to3pytreepatcomp	btm_utilsrefactorbtm_matcher
+fixer_base
+fixer_utillzmasitedbapibackupfactory
+regressionuserfunctionstransactionsdbapi2statsqlite3test_ttkthis
+test_styletest_tkinter	test_fonttest_extensions	test_misctest_variablestest_images
+runtkteststest_geometry_managerstest_loadtkwidget_testsdndtixttkfontdialogtkinter
+filedialog
+messageboxcolorchoosercommondialogscrolledtextsimpledialoguuidwsgirefwaveheadersvalidate_pyiosimple_serverchunkcgitbcryptheapqnetrcpydocpipesschedrunpyshlexsmtpdsunautracetestwith	testasync	testpatchtesthelperstestcallabletestsealabletestsentineltestmagicmethods	test_case
+test_break
+test_suitetest_resulttest_runnertest_setupstest_programtest_skippingtest_discoverytest_assertionstest_async_casetest_functiontestcasecase_test_warningsmocksuiteloaderresultrunnersignalsunittest
+async_casebase64binhexbisectcodecscodeoptest_log	test_core	test_dist
+test_bdist
+test_build
+test_check
+test_clean
+test_spawn
+test_sdisttest_uploadtest_installtest_versiontest_dep_utiltest_build_pytest_dir_utiltest_bdist_msitest_bdist_rpmtest_registertest_extensiontest_file_utiltest_build_exttest_text_filetest_build_clibtest_config_cmdtest_install_libtest_archive_utiltest_install_datatest_bdist_wininsttest_build_scriptstest_msvccompilertest_cygwinccompilertest_msvc9compilertest_unixccompilertest_bdist_dumbtest_versionpredicatetest_install_headerstest_install_scriptsbdistclean	bdist_msi
+bdist_dumbbuild_scriptsinstall_datainstall_headersdebug	distutilsdir_util	file_util	ccompilerfancy_getopt	text_filebcppcompilerunixccompilermsvc9compilercygwinccompilerversionpredicatemsvccompiler_msvccompilergbkhzoemmbcsbig5cp273cp037cp437cp424cp500cp720cp737cp775cp850cp856cp852cp857cp858cp860cp855cp861cp863cp862cp864cp865cp866cp869cp874cp950cp875cp932cp949johabutf_7utf_8cp1006cp1026cp1250cp1251cp1140cp1125cp1253cp1255cp1254cp1252euc_jpcp1257euc_krcp1258gb2312cp1256koi8_rkoi8_tkoi8_ukz1048rot_13utf_32palmosutf_16aliaseslatin_1charmapptcp154	encodingspunycode	big5hkscsuu_codec	hex_codec	bz2_codecgb18030	iso8859_1tis_620	iso8859_2	iso8859_3	iso8859_4	iso8859_7	hp_roman8	iso8859_5	iso8859_8	iso8859_6	iso8859_9	shift_jis	mac_farsi	mac_greek	mac_roman	utf_32_be	utf_16_be	utf_32_le
+iso2022_jp	undefined
+iso2022_kr	utf_16_le
+iso8859_10
+iso8859_11
+iso8859_13
+iso8859_14
+iso8859_15
+mac_arabic	utf_8_sig
+zlib_codecmac_turkish
+iso8859_16euc_jis_2004euc_jisx0213iso2022_jp_1
+mac_latin2iso2022_jp_2mac_icelandmac_croatianmac_centeurobase64_codecmac_cyrillicmac_romanianiso2022_jp_extquopri_codeciso2022_jp_3shift_jis_2004iso2022_jp_2004unicode_escapeshift_jisx0213
+_uninstall	ensurepipraw_unicode_escapegetoptimghdr	importlibftplib	machinery
+_bootstraplocale_bootstrap_externalntpathopcodepoplibpprintpyclbrquopripstatsrandomshelvesignalsndhdrsocketstringturtletimeitsymbolxdrlibzipapp_py_abcthread
+concurrentcopyregdoctestdifflibfilecmpfnmatchhashlibgetpasskeywordimaplibinspectmailboxgettextnumbersnntplibmailcappathlibpkgutilprofiletopics
+pydoc_datasmtplibreprlibsecretsnimclockpaintchaospeaceforestgenshi
+etree_lxmlpackagescachestatus_codesdownloadconfigurationfreezecliindexcompatmiscdomsaxetreecookies
+test_emailgcpathmodelsforms_csvtest_findertest_case_sensitivitytest_path_hooktest_api	test_path
+test_lockstwoonetest_contexttest_resourcebaseparsermessagetextrequestresponse
+exceptionshelpidleparsedump	test_texttest_widgetshandlerstokentypestestmocktest_loadercheckcore__main__utilprocess
+connectionpynchetestwheelconfigexternsixutilsmarkersversion	packagingappdirseasy_installpenrose
+turtledemorosette
+colormixerlindenmayeryinyangtwo_canvases
+bytedesignfractalcurvesminimal_hanoiweakrefzipfileplanet_and_moonround_dancesorting_animateargparseasynchatcalendarasyncorecollectionscolorsyscProfiledatetimeoperatorplatformoptparseplistlibsymtabletabnannytempfiletextwrapwarnings	_strptime	fileinput	formatter	fractions	linecache	functools	posixpath	mimetypes	telnetlib	sre_parse	traceback	threading	zipimport
+__future__	selectors
+compileall
+_pydecimal
+contextlib
+nturl2path
+py_compile
+statistics
+stringprep_bootlocale
+webbrowser_markupbaseantigravitycontextvars_weakrefsetdataclassesgenericpathpickletoolsrlcompletersre_compiletracemallocconfigparsermodulefinder_compressionheappoolcontextmultiprocessing_osx_supportmanagers	reduction
+popen_fork
+forkserversynchronizesharedctypesresource_sharerpopen_spawn_posixresource_trackershared_memory_dummy_threadpopen_spawn_win32_sitebuiltinssocketserver__phello__.foo_compat_picklepopen_forkserversre_constants_collections_abcdummy_threading_threading_local	WmDefaultbeerss1lifemcasthanoimarkovqueenseiffelrpythonredemovectorrpythondmsgfmtmakelocalealias	pygettextsortvisuColorDBunparseMain
+ListViewer
+ChipViewer
+TextViewerStripViewerSwitchboardPyncheWidgetTypeinViewerDetailsViewerpyColorChooser2to3llllfcrsuffbyexth2pydiffpdepsfixpsptagsndiffrgrepserveifdefwhicheptagsgoogledutreemd5summkrealpydoc3smellyfixcidfixdivnm2defpathfixcheckpipfinddivcopytimecheckpycabitypepysourcepindentreindentuntabify	byteyearslinktree	fixnotice	fixheaderobjgraph	pickle2db	highlight	db2pickle	run_tests
+make_ctype
+gprof2html
+patchcheckanalyze_dxpcleanfuture
+find-unamefindlinksto	texi2htmlcombinerefsupdate_filefindnocodingmailerdaemonreindent-rstwin_add2pathparseentitiesgenerate_tokengenerate_opcode_hpep384_macrocheckgenerate_symbol_pyimport_diagnosticsfind_recursionlimitparse_html5_entitiesget-remote-certificatevar_access_benchmarkaliasrotatesetoptdevelopegg_infosaveopts	bdist_egg	dist_info
+py36compatupload_docsmsvclaunchmonkeydependssandbox
+setuptools
+build_meta
+lib2to3_ex
+namespaces
+py27compat
+py33compat
+site-patchssl_supportpackage_indexunicode_utilswindows_support_deprecation_warningex000ex001ex002ex003ex004ex005ex006ex007ex008ex009                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

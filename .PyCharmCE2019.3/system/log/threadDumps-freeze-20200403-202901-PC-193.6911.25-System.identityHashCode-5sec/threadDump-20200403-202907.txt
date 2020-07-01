@@ -1,0 +1,571 @@
+"AWT-EventQueue-0" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+	at java.base@11.0.6/java.lang.System.identityHashCode(Native Method)
+	at java.base@11.0.6/java.util.IdentityHashMap.hash(IdentityHashMap.java:295)
+	at java.base@11.0.6/java.util.IdentityHashMap.get(IdentityHashMap.java:329)
+	at java.desktop@11.0.6/javax.swing.RepaintManager.extendDirtyRegion(RepaintManager.java:634)
+	at java.desktop@11.0.6/javax.swing.RepaintManager.addDirtyRegion0(RepaintManager.java:438)
+	at java.desktop@11.0.6/javax.swing.RepaintManager.addDirtyRegion(RepaintManager.java:507)
+	at java.desktop@11.0.6/javax.swing.JComponent.repaint(JComponent.java:4836)
+	at java.desktop@11.0.6/java.awt.Component.repaint(Component.java:3455)
+	at java.desktop@11.0.6/javax.swing.plaf.basic.BasicScrollBarUI.setThumbBounds(BasicScrollBarUI.java:1019)
+	at com.intellij.util.ui.ButtonlessScrollBarUI.setThumbBounds(ButtonlessScrollBarUI.java:300)
+	at java.desktop@11.0.6/javax.swing.plaf.basic.BasicScrollBarUI.layoutVScrollbar(BasicScrollBarUI.java:849)
+	at java.desktop@11.0.6/javax.swing.plaf.basic.BasicScrollBarUI.layoutContainer(BasicScrollBarUI.java:979)
+	at com.intellij.util.ui.ButtonlessScrollBarUI.layoutContainer(ButtonlessScrollBarUI.java:271)
+	at java.desktop@11.0.6/javax.swing.plaf.basic.BasicScrollBarUI$ModelListener.stateChanged(BasicScrollBarUI.java:1178)
+	at com.intellij.util.ui.ButtonlessScrollBarUI$8.stateChanged(ButtonlessScrollBarUI.java:309)
+	at java.desktop@11.0.6/javax.swing.DefaultBoundedRangeModel.fireStateChanged(DefaultBoundedRangeModel.java:371)
+	at com.intellij.ui.components.JBScrollBar$Model.fireStateChanged(JBScrollBar.java:341)
+	at java.desktop@11.0.6/javax.swing.DefaultBoundedRangeModel.setRangeProperties(DefaultBoundedRangeModel.java:309)
+	at java.desktop@11.0.6/javax.swing.JScrollBar.setValues(JScrollBar.java:624)
+	at java.desktop@11.0.6/javax.swing.plaf.basic.BasicScrollPaneUI.syncScrollPaneWithViewport(BasicScrollPaneUI.java:337)
+	at java.desktop@11.0.6/javax.swing.plaf.basic.BasicScrollPaneUI$Handler.stateChanged(BasicScrollPaneUI.java:1126)
+	at java.desktop@11.0.6/javax.swing.JViewport.fireStateChanged(JViewport.java:1490)
+	at java.desktop@11.0.6/javax.swing.JViewport.reshape(JViewport.java:954)
+	at java.desktop@11.0.6/java.awt.Component.setBounds(Component.java:2344)
+	at java.desktop@11.0.6/java.awt.Component.setBounds(Component.java:2495)
+	at com.intellij.ui.components.JBScrollPane$Layout.layoutContainer(JBScrollPane.java:533)
+	at java.desktop@11.0.6/java.awt.Container.layout(Container.java:1537)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyScrollPane.layout(EditorImpl.java:4751)
+	at java.desktop@11.0.6/java.awt.Container.doLayout(Container.java:1526)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1722)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validateTree(Container.java:1731)
+	at java.desktop@11.0.6/java.awt.Container.validate(Container.java:1657)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.runBulkTabChange(FileEditorManagerImpl.java:1677)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$openFileImpl4$8(FileEditorManagerImpl.java:818)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$$Lambda$1094/0x0000000840b9a840.run(Unknown Source)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:519)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:532)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl4(FileEditorManagerImpl.java:817)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl3(FileEditorManagerImpl.java:762)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$openFileImpl2$4(FileEditorManagerImpl.java:745)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$$Lambda$2311/0x00000008412abc40.run(Unknown Source)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:212)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:178)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:168)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:154)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl2(FileEditorManagerImpl.java:745)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileWithProviders(FileEditorManagerImpl.java:676)
+	at com.intellij.openapi.fileEditor.ex.FileEditorManagerEx.openFile(FileEditorManagerEx.java:136)
+	at com.intellij.ide.actions.CreateFileFromTemplateAction.createFileFromTemplate(CreateFileFromTemplateAction.java:89)
+	at com.intellij.ide.actions.CreateFileFromTemplateAction.createFileFromTemplate(CreateFileFromTemplateAction.java:60)
+	at com.intellij.ide.actions.CreateFileFromTemplateAction.createFileFromTemplate(CreateFileFromTemplateAction.java:51)
+	at com.intellij.ide.actions.CreateFileFromTemplateAction.createFile(CreateFileFromTemplateAction.java:114)
+	at com.intellij.ide.actions.CreateFileFromTemplateAction.createFile(CreateFileFromTemplateAction.java:43)
+	at com.intellij.ide.actions.CreateFromTemplateAction$1.createFile(CreateFromTemplateAction.java:61)
+	at com.intellij.ide.actions.CreateFromTemplateAction$1.createFile(CreateFromTemplateAction.java:56)
+	at com.intellij.ide.actions.CreateFileFromTemplateDialog$NonBlockingPopupBuilderImpl$1.create(CreateFileFromTemplateDialog.java:259)
+	at com.intellij.ide.actions.ElementCreator.lambda$tryCreate$0(ElementCreator.java:67)
+	at com.intellij.ide.actions.ElementCreator$$Lambda$2253/0x000000084125b040.run(Unknown Source)
+	at com.intellij.openapi.application.WriteAction.run(WriteAction.java:101)
+	at com.intellij.ide.actions.ElementCreator.lambda$executeCommand$1(ElementCreator.java:86)
+	at com.intellij.ide.actions.ElementCreator$$Lambda$2254/0x000000084125b440.run(Unknown Source)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:220)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:178)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:168)
+	at com.intellij.ide.actions.ElementCreator.executeCommand(ElementCreator.java:82)
+	at com.intellij.ide.actions.ElementCreator.tryCreate(ElementCreator.java:66)
+	at com.intellij.ide.actions.CreateFileFromTemplateDialog$NonBlockingPopupBuilderImpl.createElement(CreateFileFromTemplateDialog.java:308)
+	at com.intellij.ide.actions.CreateFileFromTemplateDialog$NonBlockingPopupBuilderImpl.lambda$show$2(CreateFileFromTemplateDialog.java:282)
+	at com.intellij.ide.actions.CreateFileFromTemplateDialog$NonBlockingPopupBuilderImpl$$Lambda$2237/0x000000084125fc40.consume(Unknown Source)
+	at com.intellij.ide.ui.newItemPopup.NewItemSimplePopupPanel$1.keyPressed(NewItemSimplePopupPanel.java:103)
+	at java.desktop@11.0.6/java.awt.Component.processKeyEvent(Component.java:6609)
+	at java.desktop@11.0.6/javax.swing.JComponent.processKeyEvent(JComponent.java:2849)
+	at java.desktop@11.0.6/java.awt.Component.processEvent(Component.java:6428)
+	at java.desktop@11.0.6/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop@11.0.6/java.awt.Component.dispatchEventImpl(Component.java:5026)
+	at java.desktop@11.0.6/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop@11.0.6/java.awt.Component.dispatchEvent(Component.java:4858)
+	at java.desktop@11.0.6/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1950)
+	at java.desktop@11.0.6/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:878)
+	at java.desktop@11.0.6/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1148)
+	at java.desktop@11.0.6/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1017)
+	at java.desktop@11.0.6/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:843)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent(IdeKeyboardFocusManager.java:40)
+	at java.desktop@11.0.6/java.awt.Component.dispatchEventImpl(Component.java:4907)
+	at java.desktop@11.0.6/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop@11.0.6/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop@11.0.6/java.awt.Component.dispatchEvent(Component.java:4858)
+	at java.desktop@11.0.6/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
+	at java.desktop@11.0.6/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop@11.0.6/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base@11.0.6/java.security.AccessController.doPrivileged(Native Method)
+	at java.base@11.0.6/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base@11.0.6/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop@11.0.6/java.awt.EventQueue$5.run(EventQueue.java:751)
+	at java.desktop@11.0.6/java.awt.EventQueue$5.run(EventQueue.java:749)
+	at java.base@11.0.6/java.security.AccessController.doPrivileged(Native Method)
+	at java.base@11.0.6/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop@11.0.6/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:908)
+	at com.intellij.ide.IdeEventQueue.dispatchKeyEvent(IdeEventQueue.java:834)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:775)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:424)
+	at com.intellij.ide.IdeEventQueue$$Lambda$530/0x0000000840527c40.compute(Unknown Source)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:698)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:423)
+	at java.desktop@11.0.6/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop@11.0.6/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop@11.0.6/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop@11.0.6/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop@11.0.6/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop@11.0.6/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+"BaseDataReader: output stream of fsnotifier64.exe" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@11.0.6/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@11.0.6/java.io.FileInputStream.read(FileInputStream.java:279)
+	at java.base@11.0.6/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base@11.0.6/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base@11.0.6/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base@11.0.6/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base@11.0.6/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base@11.0.6/java.io.InputStreamReader.read(InputStreamReader.java:185)
+	at java.base@11.0.6/java.io.Reader.read(Reader.java:229)
+	at com.intellij.util.io.BaseOutputReader.readAvailableBlocking(BaseOutputReader.java:137)
+	at com.intellij.util.io.BaseDataReader.readAvailable(BaseDataReader.java:67)
+	at com.intellij.util.io.BaseDataReader.doRun(BaseDataReader.java:160)
+	at com.intellij.util.io.BaseDataReader$$Lambda$436/0x000000084042ec40.run(Unknown Source)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.util.io.BaseDataReader.lambda$start$0(BaseDataReader.java:50)
+	at com.intellij.util.io.BaseDataReader$$Lambda$432/0x000000084042f840.run(Unknown Source)
+	at java.base@11.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"BaseDataReader: error stream of fsnotifier64.exe" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@11.0.6/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@11.0.6/java.io.FileInputStream.read(FileInputStream.java:279)
+	at java.base@11.0.6/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base@11.0.6/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base@11.0.6/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base@11.0.6/java.io.InputStreamReader.read(InputStreamReader.java:185)
+	at java.base@11.0.6/java.io.Reader.read(Reader.java:229)
+	at com.intellij.util.io.BaseOutputReader.readAvailableBlocking(BaseOutputReader.java:137)
+	at com.intellij.util.io.BaseDataReader.readAvailable(BaseDataReader.java:67)
+	at com.intellij.util.io.BaseDataReader.doRun(BaseDataReader.java:160)
+	at com.intellij.util.io.BaseDataReader$$Lambda$436/0x000000084042ec40.run(Unknown Source)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.util.io.BaseDataReader.lambda$start$0(BaseDataReader.java:50)
+	at com.intellij.util.io.BaseDataReader$$Lambda$432/0x000000084042f840.run(Unknown Source)
+	at java.base@11.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"EDT Performance Checker" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+	at java.management@11.0.6/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@11.0.6/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:502)
+	at java.management@11.0.6/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:490)
+	at com.intellij.diagnostic.ThreadDumper.getThreadInfos(ThreadDumper.java:65)
+	at com.intellij.diagnostic.SamplingTask.dumpThreads(SamplingTask.java:42)
+	at com.intellij.diagnostic.SamplingTask$$Lambda$459/0x000000084044b840.run(Unknown Source)
+	at java.base@11.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.6/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:219)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:222)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:201)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1$$Lambda$328/0x000000084036d040.run(Unknown Source)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:190)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"Netty Builtin Server 1" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@11.0.6/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at java.base@11.0.6/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:339)
+	at java.base@11.0.6/sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:167)
+	at java.base@11.0.6/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	at java.base@11.0.6/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:136)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:824)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"fsnotifier64.exe" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@11.0.6/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@11.0.6/java.lang.ProcessImpl.waitFor(ProcessImpl.java:542)
+	at com.intellij.execution.process.ProcessWaitFor.lambda$null$0(ProcessWaitFor.java:38)
+	at com.intellij.execution.process.ProcessWaitFor$$Lambda$431/0x0000000840429c40.run(Unknown Source)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.execution.process.ProcessWaitFor.lambda$new$1(ProcessWaitFor.java:33)
+	at com.intellij.execution.process.ProcessWaitFor$$Lambda$430/0x0000000840429840.run(Unknown Source)
+	at java.base@11.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"Netty Builtin Server 2" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@11.0.6/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at java.base@11.0.6/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:339)
+	at java.base@11.0.6/sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:167)
+	at java.base@11.0.6/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	at java.base@11.0.6/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:136)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:824)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"Reference Handler" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+	at java.base@11.0.6/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@11.0.6/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+	at java.base@11.0.6/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+
+"AWT-Windows" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.desktop@11.0.6/sun.awt.windows.WToolkit.eventLoop(Native Method)
+	at java.desktop@11.0.6/sun.awt.windows.WToolkit.run(WToolkit.java:305)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"main" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+
+"Signal Dispatcher" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+
+"Attach Listener" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+
+"ApplicationImpl pooled thread 113" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on com.intellij.openapi.application.impl.ReadMostlyRWLock@60f3c718
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.waitABit(ReadMostlyRWLock.java:133)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.readLock(ReadMostlyRWLock.java:124)
+	at com.intellij.openapi.application.impl.ApplicationImpl.startRead(ApplicationImpl.java:833)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:823)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:71)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.registerIfParentNotDisposed(BackgroundTaskUtil.java:271)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:257)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:242)
+	at com.intellij.vfs.AsyncVfsEventsPostProcessorImpl.processEvents(AsyncVfsEventsPostProcessorImpl.kt:63)
+	at com.intellij.vfs.AsyncVfsEventsPostProcessorImpl.access$processEvents(AsyncVfsEventsPostProcessorImpl.kt:32)
+	at com.intellij.vfs.AsyncVfsEventsPostProcessorImpl$queue$1.consume(AsyncVfsEventsPostProcessorImpl.kt:34)
+	at com.intellij.vfs.AsyncVfsEventsPostProcessorImpl$queue$1.consume(AsyncVfsEventsPostProcessorImpl.kt:32)
+	at com.intellij.util.concurrency.QueueProcessor.lambda$null$0(QueueProcessor.java:79)
+	at com.intellij.util.concurrency.QueueProcessor$$Lambda$1729/0x0000000840f4d040.run(Unknown Source)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:231)
+	at com.intellij.util.concurrency.QueueProcessor.lambda$wrappingProcessor$1(QueueProcessor.java:79)
+	at com.intellij.util.concurrency.QueueProcessor$$Lambda$1599/0x0000000840ebd040.consume(Unknown Source)
+	at com.intellij.util.concurrency.QueueProcessor.lambda$null$3(QueueProcessor.java:212)
+	at com.intellij.util.concurrency.QueueProcessor$$Lambda$1725/0x0000000840f4c040.run(Unknown Source)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:231)
+	at com.intellij.util.concurrency.QueueProcessor.lambda$startProcessing$4(QueueProcessor.java:212)
+	at com.intellij.util.concurrency.QueueProcessor$$Lambda$1724/0x0000000840f4bc40.run(Unknown Source)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:238)
+	at java.base@11.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"ApplicationImpl pooled thread 117" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on com.intellij.openapi.application.impl.ReadMostlyRWLock@60f3c718
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.waitABit(ReadMostlyRWLock.java:133)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.readLock(ReadMostlyRWLock.java:124)
+	at com.intellij.openapi.application.impl.ApplicationImpl.startRead(ApplicationImpl.java:833)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:823)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:71)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:64)
+	at com.intellij.ide.GeneratedSourceFileChangeTrackerImpl.checkFiles(GeneratedSourceFileChangeTrackerImpl.java:126)
+	at com.intellij.ide.GeneratedSourceFileChangeTrackerImpl$$Lambda$850/0x0000000840915c40.run(Unknown Source)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:231)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:371)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:358)
+	at java.base@11.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:217)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:222)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:201)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1$$Lambda$328/0x000000084036d040.run(Unknown Source)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:190)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"ApplicationImpl pooled thread 118" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:357)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.sleepIfNeededToGivePriorityToAnotherThread(CoreProgressManager.java:752)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.lambda$new$0(ProgressManagerImpl.java:29)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$$Lambda$322/0x000000084036e840.runHook(Unknown Source)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runCheckCanceledHooks(CoreProgressManager.java:114)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.doCheckCanceled(CoreProgressManager.java:127)
+	at com.intellij.openapi.progress.ProgressManager.checkCanceled(ProgressManager.java:218)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.readLock(ReadMostlyRWLock.java:123)
+	at com.intellij.openapi.application.impl.ApplicationImpl.startRead(ApplicationImpl.java:833)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:823)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:71)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:64)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$transferToBgThread$5(NonBlockingReadActionImpl.java:254)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission$$Lambda$948/0x0000000840a93c40.run(Unknown Source)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:222)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:201)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1$$Lambda$328/0x000000084036d040.run(Unknown Source)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:190)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"ApplicationImpl pooled thread 119" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:357)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.sleepIfNeededToGivePriorityToAnotherThread(CoreProgressManager.java:752)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.lambda$new$0(ProgressManagerImpl.java:29)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$$Lambda$322/0x000000084036e840.runHook(Unknown Source)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runCheckCanceledHooks(CoreProgressManager.java:114)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.doCheckCanceled(CoreProgressManager.java:127)
+	at com.intellij.openapi.progress.ProgressManager.checkCanceled(ProgressManager.java:218)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.readLock(ReadMostlyRWLock.java:123)
+	at com.intellij.openapi.application.impl.ApplicationImpl.startRead(ApplicationImpl.java:833)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:823)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:71)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:64)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$transferToBgThread$5(NonBlockingReadActionImpl.java:254)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission$$Lambda$948/0x0000000840a93c40.run(Unknown Source)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:222)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:201)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:193)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"Async Refresh Event Processing" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on com.intellij.util.concurrency.Semaphore$Sync@7cd1c53a
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer.parkAndCheckInterrupt(AbstractQueuedSynchronizer.java:885)
+	at java.base@11.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1039)
+	at java.base@11.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1345)
+	at com.intellij.util.concurrency.Semaphore.waitForUnsafe(Semaphore.java:81)
+	at com.intellij.util.concurrency.Semaphore.waitFor(Semaphore.java:73)
+	at com.intellij.openapi.application.impl.LaterInvocator.invokeAndWait(LaterInvocator.java:171)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:527)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.yieldToPendingWriteActions(ProgressIndicatorUtils.java:252)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.processAndFireEvents(RefreshQueueImpl.java:137)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.lambda$scheduleAsynchronousPreprocessing$2(RefreshQueueImpl.java:105)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl$$Lambda$685/0x00000008400a2c40.run(Unknown Source)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:222)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:201)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1$$Lambda$328/0x000000084036d040.run(Unknown Source)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:190)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"ApplicationImpl pooled thread 116" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on com.intellij.openapi.application.impl.ReadMostlyRWLock@60f3c718
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.waitABit(ReadMostlyRWLock.java:133)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.readLock(ReadMostlyRWLock.java:124)
+	at com.intellij.openapi.application.impl.ApplicationImpl.startRead(ApplicationImpl.java:833)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:823)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:71)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:64)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$transferToBgThread$5(NonBlockingReadActionImpl.java:254)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission$$Lambda$948/0x0000000840a93c40.run(Unknown Source)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:222)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:201)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1$$Lambda$328/0x000000084036d040.run(Unknown Source)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:190)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"AsyncEditorLoader Pool" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on com.intellij.openapi.application.impl.ReadMostlyRWLock@60f3c718
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.waitABit(ReadMostlyRWLock.java:133)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.readLock(ReadMostlyRWLock.java:124)
+	at com.intellij.openapi.application.impl.ApplicationImpl.startRead(ApplicationImpl.java:833)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:823)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:71)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:64)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$transferToBgThread$5(NonBlockingReadActionImpl.java:254)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission$$Lambda$948/0x0000000840a93c40.run(Unknown Source)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:222)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:201)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1$$Lambda$328/0x000000084036d040.run(Unknown Source)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:190)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"ApplicationImpl pooled thread 120" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.SynchronousQueue$TransferStack@51bfa5cd
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.6/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+	at java.base@11.0.6/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+	at java.base@11.0.6/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"ApplicationImpl pooled thread 124" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.SynchronousQueue$TransferStack@51bfa5cd
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.6/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+	at java.base@11.0.6/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+	at java.base@11.0.6/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"Periodic tasks thread" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@15acb40b
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.6/java.util.concurrent.DelayQueue.take(DelayQueue.java:229)
+	at com.intellij.util.concurrency.AppDelayQueue.lambda$new$0(AppDelayQueue.java:40)
+	at com.intellij.util.concurrency.AppDelayQueue$$Lambda$29/0x0000000840074840.run(Unknown Source)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"TimerQueue" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@495d010f
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.6/java.util.concurrent.DelayQueue.take(DelayQueue.java:229)
+	at java.desktop@11.0.6/javax.swing.TimerQueue.run(TimerQueue.java:171)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"Common-Cleaner" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.lang.ref.ReferenceQueue$Lock@75e7ac32
+	at java.base@11.0.6/java.lang.Object.wait(Native Method)
+	at java.base@11.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.6/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+	at java.base@11.0.6/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+
+"Java2D Disposer" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.lang.ref.ReferenceQueue$Lock@698de62d
+	at java.base@11.0.6/java.lang.Object.wait(Native Method)
+	at java.base@11.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.desktop@11.0.6/sun.java2d.Disposer.run(Disposer.java:144)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"Finalizer" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.lang.ref.ReferenceQueue$Lock@f7fa32e
+	at java.base@11.0.6/java.lang.Object.wait(Native Method)
+	at java.base@11.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@11.0.6/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+
+"AWT-Shutdown" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.lang.Object@21c35112
+	at java.base@11.0.6/java.lang.Object.wait(Native Method)
+	at java.base@11.0.6/java.lang.Object.wait(Object.java:328)
+	at java.desktop@11.0.6/sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:291)
+	at java.base@11.0.6/java.lang.Thread.run(Thread.java:834)
+
+"Batik CleanerThread" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.lang.ref.ReferenceQueue$Lock@39259f80
+	at java.base@11.0.6/java.lang.Object.wait(Native Method)
+	at java.base@11.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.6/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.apache.batik.util.CleanerThread.run(CleanerThread.java:106)
+
+"JobScheduler FJ pool 4/3" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.ForkJoinPool@7d5cd132
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:275)
+	at java.base@11.0.6/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1619)
+	at java.base@11.0.6/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+"JobScheduler FJ pool 0/3" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.ForkJoinPool@7d5cd132
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:275)
+	at java.base@11.0.6/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1619)
+	at java.base@11.0.6/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+"JobScheduler FJ pool 1/3" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.ForkJoinPool@7d5cd132
+	at java.base@11.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.6/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.6/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1628)
+	at java.base@11.0.6/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
